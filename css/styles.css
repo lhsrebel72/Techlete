@@ -1,0 +1,103 @@
+/* Header */
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-bottom: 1rem;
+    }
+    
+    header .logo {
+        width: 150px; /* adjust as needed */
+        height: auto;
+    }
+    
+    header nav {
+        display: flex;
+        font-size: 18px;
+    }
+    
+    nav ul li a:hover {
+        color: #67E2E6;
+    }
+    
+    header nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    
+    header nav ul li {
+        margin-left: 1rem;
+    }
+    
+    header nav ul li a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    /* Body */
+    body {
+        font-family: "Eurostile", sans-serif;
+        margin: 0px;
+    }
+    
+    .container {
+        width: 80%; /* adjust as needed */
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 18rem;
+    }
+    
+    h2 {
+        margin-top: 2rem; /* adjust as needed */
+        margin-bottom: 1rem; /* adjust as needed */
+        font-size: 48px;
+    }
+    
+    p {
+        margin-top: 1rem; /* adjust as needed */
+        margin-bottom: 2rem; /* adjust as needed */
+        font-size: 24px;
+    }
+    
+    .color-box {
+        background-color: #00bbffe0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 0;
+        color: white;
+    }
+    
+    .medium-image {
+        max-width: 500px;
+        height: auto;
+    }
+    
+    .centered-box {
+        text-align: center;
+        max-width: 800px;
+        margin-top: 30px;
+    }
+    
+    .centered-box p {
+        font-size: 20px;
+        line-height: 1.5;
+        margin-top: 10px;
+    }
+    
+    /* Footer */
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    #gameWindow {
+        display: block;
+        margin: 0 auto;
+        border: 2px solid black;
+      }
